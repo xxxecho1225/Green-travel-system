@@ -1,2 +1,69 @@
-# Green-travel-system
-绿色出行系统使用 Go+Solidity+Vue 3开发，使用简单的用户登录注册进去系统会分配一个区块链地址，系统可以记录用户的步数等数据，类似于支付宝，当用户上传数据时，系统利用区块链会分配到用户的区块链钱包，生成 hash  并且由于以太坊的奖励机制，会奖励用户 ETH 。当用户有造假数据、存在非绿色出行行为，可以进行举报，举报也会存在奖励机制。 本系统还有后台检测的后台系统，对用户的数据进行管理，有增删改查的功能。 本人作为小组的成员负责对 ui  界面的适配（适配手机 app）、使用 Python  对功能的测试用例编写、文档的编写以及总结，对数据与区块链 metamask  钱包的交互，后端管理系统的部分功能实现以及奖励机制分配给用户功能的完善。
+# nuxt-test
+
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
+## Special Directories
+
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+
+### `assets`
+
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+
+### `components`
+
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+
+### `layouts`
+
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+
+
+### `pages`
+
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+
+### `plugins`
+
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+
+### `static`
+
+This directory contains your static files. Each file inside this directory is mapped to `/`.
+
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+
+### `store`
+
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
